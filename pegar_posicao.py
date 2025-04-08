@@ -1,11 +1,7 @@
 import time
 import pyautogui
-import pandas as pd
 
+# Utilizado para pegar a posição do mouse, para o atributo do click
 
-tabela = pd.read_csv('produtos.csv')
-print(tabela)
-# time.sleep(5)
-# print(pyautogui.position())
-
-# pyautogui.scroll(200)
+time.sleep(5)
+print(pyautogui.position())
